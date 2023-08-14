@@ -3,37 +3,66 @@
 // * Creating an Array
 let myFirstArray = ["Array", 1, true];
 
-// TODO Create an array in mySecondArray. 
-// You can do this by assigning (=) the variable to brackets, then putting any data you want in those brackets!
-let mySecondArray;
+/**
+ *  * Question 1
+ * 
+ * Create an array with 5 elements. The elements can have any 
+ * value you want. 
+ * 
+ * Return the array you created
+ * 
+ * @returns {Array}
+ */
+function myFirstArray() {
+    // TODO Finish the function
+}
 
-// TODO Create a variable called myThirdArray and fill it with numbers 1, 2, 3, and 4.
+/**
+ *  * Question 2
+ * 
+ * Given an array called arr, use console.log() to prNumber out the first three
+ * elements of arr.
+ * 
+ * @param {String[]} arr 
+ */
+function accessElements(arr) {
+    // TODO Finish the function
+}
 
-
-// * Accessing Array elements
-myFirstArray[0]; // This equals "Array"
-myFirstArray[1]; // This equals 1
-myFirstArray[2]; // This equals true
-
-// TODO Access each element of myThirdArray that you created above
-// You can do this by using brackets [] after you variable name
-// Do this for each element you put in your array
-
-
-// TODO Access each element of mySecondArray
-
-
-// * Reassigning elements
-const myArray1 = [1, 2, 3, 4, 5, 6];
-myArray1[0] = 2;
+/**
+ * * Question 3
+ * 
+ * Given an array called arr, reassign the first three elements to 
+ * numbers. You should replace arr's old values with 1, 2, and 3.
+ * Return the array.
+ * 
+ * @param {String[]} arr 
+ * @returns {Array}
+ */
+function reassignElements(arr) {
+    // TODO Finish the function
+}
 
 // TODO Reassign index 1 of myArray1 to 50
 // You can do this by accessing the index like you did above, then assign it to 50 the same way you would with a variable (Ex: variable = 50;)
+
+
 
 // TODO Reassign index 2 of myArray1 to 49
 
 // * Array Length
 myArray1.length; // This has a value of 6
+
+/**
+ * * Question 
+ * 
+ * Given an array called arr, return the length of the array.
+ * 
+ * @param {Number[]} arr 
+ */
+function findArrayLength(arr) {
+    // TODO Finish the function
+}
 
 // TODO Find the length of myFirstArray
 // You can do this by using the array's name, followed by a . then length
