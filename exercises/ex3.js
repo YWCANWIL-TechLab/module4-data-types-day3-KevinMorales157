@@ -132,88 +132,123 @@ function useJoin(arr) {
     // TODO Finish the function
 }
 
-
-// * toString
-
-myArray1.toString(); // Returns myArray1 in string form
-
-// TODO Convert myName to a string using toString()
-// Do this by calling toString() on myName, like you did with push()
-
-// TODO Convert myFirstArray to a string with toString()
-
-// * join()
-
-myArray1.join(); // Works like toString(), but can have other "delimiters" that separate the elements
-
-// TODO Create a string of myArray1, but separate the array elements with whitespace instead of commas
-// You can accomplish this by putting a pair of quotations marks with a single space between them as an argument (like this " ")
-
-
-// TODO Create a string of myArray1, but separate the array elements with this character: |
-
-myArray1.pop(); // Removes and returns the last element of myArray1
-
-// TODO Remove the last element of myName
-// You can do this with the pop() method. No parameter needed
-
-
-// TODO Remove your middle (or first) name from myName
-
-
-const dogs = ["Pug", "Lab", "Corgi", "Malinois"];
-dogs.shift();   // Removes the first element from dogs
-
-// TODO Remove "Lab" from dogs
-// Use the shift() method once to remove the first element
-
-// TODO Remove "Corgi" from dogs
-
-
-dogs.unshift("Corgi"); // Adds "Corgi" back to the front of dogs
-
-// TODO Add "Lab" back to the front of dogs
-// Use unshift() with "Lab" as your parameter
-
-// TODO Add a new breed of dog (pugs are gross) to dogs
-
 // * splice()
 
-dogs.splice(1, 1, "Chihuahau"); // Starting at the first element, this removes one dog, then adds "Chihuahua"
+/**
+ * * Question 11
+ * 
+ * Given an array called arr, remove the first element from the array. Return 
+ * arr.
+ * 
+ * @param {String[]} arr
+ * @returns {String[]} 
+ */
+function splice1(arr) {
+    // TODO Finish the function
+}
 
-// TODO Add a new dog breed to the end of dogs using splice()
-// You can do this by making the first parameter the length of dogs - 1, then setting the deleteCount to 0, 
-// and finally adding your dog breed as a parameter
+/**
+ * * Question 12
+ * 
+ * Given an array called arr and a String called addMe, add addMe to the array
+ * at index 2. Return the array.
+ * 
+ * @param {String[]} arr 
+ * @param {String} addMe
+ * @returns {String[]}
+ */
+function splice2(arr, addMe) {
+    // TODO Finish the function
+}
 
-// TODO Remove the index 0 of dog, then add a new dog breed
-
+/**
+ * * Question 13
+ * 
+ * Given an array called arr and a string called addMe, remove the first 
+ * element of the array and add addMe and addMe2 in its place. Return the array.
+ * 
+ * @param {String[]} arr 
+ * @param {String} addMe 
+ * @param {String} addMe2 
+ * @returns {String[]}
+ */
+function splice3(arr, addMe, addMe2) {
+    // TODO Finish the function
+}
 
 // * concat()
 
-myFirstArray.concat(mySecondArray); // Adds the elements of myFirstArray to mySecondArray
-
-// TODO Add the elements of mySecondArray to myFirstArray again
-// We can see how to do this up above
-
-// TODO Add the elements of dogs to myFirstArray
+/**
+ * * Question 14
+ * 
+ * Given three arrays, arr1, arr2, and arr3, concatenate all three arrays
+ * together. Return the concatenated array.
+ * 
+ * @param {Number[]} arr1 
+ * @param {Number[]} arr2 
+ * @param {Number[]} arr3 
+ * @returns {Number[]} 
+ */
+function concatArrays(arr1, arr2, arr3) {
+    // TODO Finish the function
+}
 
 // * slice()
 
-myFirstArray.slice(0, 2); // Returns a new array with the first two elements of myFirstArray
+/**
+ * * Question 15
+ * 
+ * Given an array called arr, and a number called start, return the last 
+ * element of the array using slice().
+ * 
+ * @param {String[]} arr 
+ * @param {Number} start 
+ * @returns {String[]}
+ */
+function slice1(arr, start) {
+    // TODO Finish the function
+}
 
-// TODO Get a new array of all elements of myFirstArray 
-// You can do this by using slice(), starting at index 0 and ommitting the endIndex parameter
-
-// TODO Get a new array with elements 2 - 4 of dogs
-// Remember, element's index is one less than their position
+/**
+ * * Question 16
+ * 
+ * Given an array called arr, a number called start, and a number called end, 
+ * return every element in the array between the start index and the end index.
+ * 
+ * @param {String[]} arr 
+ * @param {Number} start 
+ * @param {Number} end 
+ * @returns {String[]}
+ */
+function slice2(arr, start, end) {
+    // TODO Finish the function
+}
 
 // * sort()
 
-dogs.sort(); // Sorts dogs by alphabetical order 
+/**
+ * * Question 17
+ * 
+ * Given an array of called arr, sort the elements of the array in alphabetical
+ * order using the sort() method. Return the sorted array.
+ * 
+ * @param {String[]} arr 
+ * @returns {String[]}
+ */
+function sortArray(arr) {
+    // TODO Finish the function
+}
 
-// TODO Resort dogs in reverse alphabetical order
-// You can use the reverse() method for this
-
-// TODO Resort dogs again, in alphabetical order
-
+/**
+ * * Question 18
+ * 
+ * Given an array called arr, sort the elements of the array in reverse 
+ * alphabetical order using the reverse() method. Return the sorted array.
+ * 
+ * @param {String[]} arr 
+ * @returns {String[]}
+ */
+function reverseArray(arr) {
+    // TODO Finish the function
+}
 
