@@ -9,7 +9,7 @@
  * @returns {Array}
  */
 function myFirstArray() {
-    // TODO Finish the function
+    // TODO
 }
 
 /**
@@ -21,7 +21,7 @@ function myFirstArray() {
  * @param {String[]} arr 
  */
 function accessElements(arr) {
-    // TODO Finish the function
+    // TODO
 }
 
 /**
@@ -35,7 +35,7 @@ function accessElements(arr) {
  * @returns {String[]}
  */
 function reassignElements(arr) {
-    // TODO Finish the function
+    // TODO
 }
 
 /**
@@ -48,7 +48,7 @@ function reassignElements(arr) {
  * @returns {Number[]}
  */
 function reassignLastElement(arr) {
-    // TODO Finish the function
+    // TODO
 }
 
 /**
@@ -60,7 +60,7 @@ function reassignLastElement(arr) {
  * @returns {Number}
  */
 function findArrayLength(arr) {
-    // TODO Finish the function
+    // TODO
 }
 
 // * Adding Elements
@@ -76,7 +76,7 @@ function findArrayLength(arr) {
  * @returns {String[]}
  */
 function addToEnd(arr, addMe) {
-    // TODO Finish the function
+    // TODO
 }
 
 /**
@@ -90,7 +90,7 @@ function addToEnd(arr, addMe) {
  * @returns {Number[]}
  */
 function addToStart(arr, addMe) {
-    // TODO Finish the function
+    // TODO
 }
 
 /**
@@ -103,7 +103,7 @@ function addToStart(arr, addMe) {
  * @returns {Number}
  */
 function removeFromEnd(arr) {
-    // TODO Finish the function
+    // TODO
 }
 
 /**
@@ -116,7 +116,7 @@ function removeFromEnd(arr) {
  * @returns {Number}
  */
 function removeFromStart(arr) {
-    // TODO Finish the function
+    // TODO
 }
 
 /**
@@ -129,7 +129,7 @@ function removeFromStart(arr) {
  * @returns {String}
  */
 function useJoin(arr) {
-    // TODO Finish the function
+    // TODO
 }
 
 // * splice()
@@ -144,7 +144,7 @@ function useJoin(arr) {
  * @returns {String[]} 
  */
 function splice1(arr) {
-    // TODO Finish the function
+    // TODO
 }
 
 /**
@@ -158,7 +158,7 @@ function splice1(arr) {
  * @returns {String[]}
  */
 function splice2(arr, addMe) {
-    // TODO Finish the function
+    // TODO
 }
 
 /**
@@ -173,7 +173,7 @@ function splice2(arr, addMe) {
  * @returns {String[]}
  */
 function splice3(arr, addMe, addMe2) {
-    // TODO Finish the function
+    // TODO
 }
 
 // * concat()
@@ -190,7 +190,7 @@ function splice3(arr, addMe, addMe2) {
  * @returns {Number[]} 
  */
 function concatArrays(arr1, arr2, arr3) {
-    // TODO Finish the function
+    // TODO
 }
 
 // * slice()
@@ -202,10 +202,9 @@ function concatArrays(arr1, arr2, arr3) {
  * element of the array using slice().
  * 
  * @param {String[]} arr 
- * @param {Number} start 
  * @returns {String[]}
  */
-function slice1(arr, start) {
+function slice1(arr) {
     // TODO Finish the function
 }
 
