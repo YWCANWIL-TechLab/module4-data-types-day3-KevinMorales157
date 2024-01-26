@@ -10,8 +10,8 @@
  */
 function myFirstArray() {
     // TODO
+    return["hello World", 5, true, undefined, null]
 }
-
 /**
  *  * Question 2
  * 
@@ -22,8 +22,10 @@ function myFirstArray() {
  */
 function accessElements(arr) {
     // TODO
+    console.log(arr[0]);
+    console.log(arr[1]);
+    console.log(arr[2]);
 }
-
 /**
  * * Question 3
  * 
@@ -36,8 +38,11 @@ function accessElements(arr) {
  */
 function reassignElements(arr) {
     // TODO
+    arr[0]= 1;
+    arr[1]=2;
+    arr[2]=3;
+    return arr;
 }
-
 /**
  * * Question 4
  * 
@@ -49,8 +54,9 @@ function reassignElements(arr) {
  */
 function reassignLastElement(arr) {
     // TODO
-}
+    arr[arr.length - 1]="last";
 
+}
 /**
  * * Question 5
  * 
@@ -61,6 +67,7 @@ function reassignLastElement(arr) {
  */
 function findArrayLength(arr) {
     // TODO
+    arr.length
 }
 
 // * Adding Elements
@@ -77,6 +84,7 @@ function findArrayLength(arr) {
  */
 function addToEnd(arr, addMe) {
     // TODO
+    return arr;
 }
 
 /**
@@ -91,8 +99,9 @@ function addToEnd(arr, addMe) {
  */
 function addToStart(arr, addMe) {
     // TODO
+    arr.unshift(addMe);
+    return arr;
 }
-
 /**
  * * Question 8
  * 
@@ -104,6 +113,7 @@ function addToStart(arr, addMe) {
  */
 function removeFromEnd(arr) {
     // TODO
+    return arr.pop();
 }
 
 /**
@@ -117,6 +127,7 @@ function removeFromEnd(arr) {
  */
 function removeFromStart(arr) {
     // TODO
+    return arr.shift();
 }
 
 /**
@@ -130,6 +141,7 @@ function removeFromStart(arr) {
  */
 function useJoin(arr) {
     // TODO
+    return arr.join(" | ");
 }
 
 // * splice()
@@ -159,6 +171,8 @@ function splice1(arr) {
  */
 function splice2(arr, addMe) {
     // TODO
+    arr.splice(2, 0, "addMe");
+    return arr;
 }
 
 /**
@@ -174,6 +188,8 @@ function splice2(arr, addMe) {
  */
 function splice3(arr, addMe, addMe2) {
     // TODO
+    arr.splice(0, 1, "addMe", "addMe2");
+    return arr;
 }
 
 // * concat()
